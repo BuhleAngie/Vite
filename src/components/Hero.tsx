@@ -26,7 +26,7 @@ const Hero = () => {
       
         title: "Easy & Accessible",
         description: "Book appointments anytime. No long queues. No travel hassles. Just care — simplified.",
-        image: "https://static.zawya.com/view/acePublic/alias/contentid/image.200518100354YJCD/3/200518100354yjcd-jpg.webp?f=3%3A2&q=0.75&w=3840"
+        image: "https://static.zawya.com/view/acePublic/alias/contentid/image.200518100354YJCD/3/200518100354yjcd-jpg.webp?f=3%3A2&q=0.75&w=3840git push -u origin main"
       
       
       }
@@ -39,6 +39,7 @@ const Hero = () => {
     }, 5000);
     return () => clearInterval(timer);
   }, []);
+  
 
   return (
     <section className="relative h-[80vh] overflow-hidden">

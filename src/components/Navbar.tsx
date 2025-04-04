@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 const Navbar = () => {
   // Added state for mobile menu
   const [isMenuOpen, setIsMenuOpen] = useState(false);
