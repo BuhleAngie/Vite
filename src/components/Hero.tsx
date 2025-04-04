@@ -5,20 +5,32 @@ const Hero = () => {
   
   const slides = [
     {
-      title: "Welcome to YourBrand",
-      description: "A modern and elegant starter template with a clean design using black, gold, and silver gray colors.",
-      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&q=80&w=1920&h=1080"
+      
+        title: "Vital Wheels",
+        description: "Care That Moves With You",
+        image: "https://www.pharmaccess.org/wp-content/uploads/2016/05/MisterSister.jpg"
+      
+      
+    },
+
+    {
+      
+        title: "Mobile Clinic Access",
+        description: "Bringing essential healthcare services directly to your community—anytime, anywhere.",
+        image: "https://d7.westerncape.gov.za/sites/www.westerncape.gov.za/files/picture_2_0.jpg"
+      
+      
     },
     {
-      title: "Modern Design",
-      description: "Built with the latest technologies and best practices for modern web development.",
-      image: "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&fit=crop&q=80&w=1920&h=1080"
-    },
-    {
-      title: "Responsive Layout",
-      description: "Perfectly optimized for all devices and screen sizes.",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1920&h=1080"
-    }
+      
+      
+        title: "Easy & Accessible",
+        description: "Book appointments anytime. No long queues. No travel hassles. Just care — simplified.",
+        image: "https://static.zawya.com/view/acePublic/alias/contentid/image.200518100354YJCD/3/200518100354yjcd-jpg.webp?f=3%3A2&q=0.75&w=3840"
+      
+      
+      }
+      
   ];
 
   useEffect(() => {

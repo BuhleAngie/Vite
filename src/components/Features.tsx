@@ -3,16 +3,16 @@ import React from 'react';
 const Features = () => {
   const features = [
     {
-      title: 'Responsive Design',
-      description: 'Fully responsive layout that looks great on all devices from mobile to desktop.'
+      title: 'Mobile Clinic Access',
+      description: 'Get healthcare services anytime, anywhere through our mobile clinic platform — designed to reach underserved areas with ease.'
     },
     {
-      title: 'Modern Stack',
-      description: 'Built with React, TypeScript, and Tailwind CSS for a modern development experience.'
+      title: 'Simple Booking System',
+      description: 'Book your appointments quickly with just a few clicks. No long queues or paperwork — your health, simplified.'
     },
     {
-      title: 'Easy Customization',
-      description: 'Simple to customize with Tailwind utility classes and component-based architecture.'
+      title: 'Clean & Friendly Design',
+      description: 'Easy-to-use interface with clear navigation and calming colors to make your experience smooth and stress-free.'
     }
   ];
 

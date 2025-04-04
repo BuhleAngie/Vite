@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             {/* Added hover animation for brand name */}
             <h3 className="text-xl font-bold text-amber-400 mb-4 hover:text-amber-300 transition-colors duration-300">
-              YourBrand
+              Vital Wheels
             </h3>
             <p className="mb-4">
               A modern starter template with a clean design using black, gold, and silver gray colors.
@@ -61,7 +61,7 @@ const Footer = () => {
         {/* Added subtle animation for copyright text */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="hover:text-amber-400 transition-colors duration-300">
-            &copy; {new Date().getFullYear()} YourBrand. All rights reserved.
+            &copy; {new Date().getFullYear()} Vital Wheels. All rights reserved.
           </p>
         </div>
       </div>
